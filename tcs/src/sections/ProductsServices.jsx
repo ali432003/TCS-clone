@@ -74,52 +74,52 @@ const ProductsServices = () => {
                     <p className='text-center mt-2'>Domestic</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/international.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-sm lg:w-[9rem] mt-2'>International</p>
+                    <img src="/img/overlandexpress.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-sm lg:w-[9rem] mt-2'>Overland</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/ecom.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>E-com</p>
+                    <img src="/img/fleettransportation.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Fleet & Transport</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/traveltours.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Travel & Tours</p>
+                    <img src="/img/warehousing.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Warehousing</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/domestic.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Distribution</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/internatinalfreight.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>International Freight</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/customsbrokrage.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Custom Support</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/packgo.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>PackNGo</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/expologistics.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Expo Logistics</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/projectlogistics.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Project Logistics</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/coldchain.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Cold Chain</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/agrilogistics.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Agri Logistics</p>
                 </div>
                 <div className='p-12 bg-white py-5 w-40 cursor-pointer'>
-                    <img src="/img/visatronix.svg" className='lg:ms-2 h-14 w-14' />
-                    <p className='text-center mt-2'>Visatronix</p>
+                    <img src="/img/tir.svg" className='lg:ms-2 h-14 w-14' />
+                    <p className='text-center mt-2'>Regional Trade</p>
                 </div>
             </div> : expressClick}
         </>
