@@ -1,0 +1,26 @@
+.social_f:hover{
+    filter: invert(38%) sepia(42%) saturate(843%) hue-rotate(182deg) brightness(91%) contrast(87%)
+}
+
+.social_w:hover {
+    filter: invert(43%) sepia(71%) saturate(1290%) hue-rotate(117deg)
+      brightness(101%) contrast(101%);
+    cursor: pointer;
+}
+
+.social_i:hover {
+    filter: invert(10%) sepia(100%) saturate(7445%) hue-rotate(297deg)
+      brightness(103%) contrast(102%);
+    cursor: pointer;
+}
+.social_y:hover {
+    filter: invert(15%) sepia(85%) saturate(6059%) hue-rotate(357deg)
+      brightness(107%) contrast(120%);
+    cursor: pointer;
+}
+
+.social_l:hover {
+    filter: invert(27%) sepia(49%) saturate(6970%) hue-rotate(186deg)
+      brightness(92%) contrast(101%);
+    cursor: pointer;
+}

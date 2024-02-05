@@ -17,3 +17,19 @@
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(221, 23, 23);
   }
+
+  
+.message-container {
+  display: none;
+}
+
+@media only screen and (max-width: 1115px) {
+  .message-container {
+    margin-top: 6rem;
+    text-align: center;
+    display: block;
+  }
+  .body{
+    display: none;
+  }
+} 

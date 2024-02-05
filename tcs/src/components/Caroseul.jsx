@@ -19,19 +19,23 @@ const Caroseul = () => {
                     <button className='bg-[#D40511] text-white p-3 w-full md:w-[10rem] rounded-r-sm transition-all duration-500 gradientbg'>Track Shipment</button>
                 </div>
             </div>
-            <div className="button-component sm:flex grid flex-col md:flex-row px-[2rem] lg:mx-[3rem] md:ml-[0rem] mx-[1rem] mt-[8rem] sm:relative justify-center items-center lg:mt-[-3rem] md:mt-[-2rem] z-10">
-                <div className=' flex'>
-                    <div className='hover:z-50 bg-white lg:w-[208px] md:w-[170px] sm:w-[49.5%] w-[49.5%] card rounded-t-md md:rounded-none md:rounded-l-md w-[24%] w-[12rem]'>
-                        <img className='h-[-7.7rem]' src="/img/KeyFeatures/tcskardo.svg" width={50} alt="" />
-                        <div className='text-sm'>TCS Kardo</div>
-                    </div>
-                    <div className='hover:z-50 bg-white lg:w-[208px] md:w-[170px] sm:w-[49.5%] w-[49.5%] card rounded-t-md md:rounded-none md:rounded-l-md w-[24%] w-[12rem]'>
-                        <img className='h-[-7.7rem]' src="/img/KeyFeatures/tcskardo.svg" width={50} alt="" />
-                        <div className='text-sm'>TCS Kardo</div>
-                    </div>
-                    
+            <div className='flex justify-center lg:-translate-y-16'>
+                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                    <img src="/img/KeyFeatures/tcskardo.svg" className='h-14 w-14' />
+                    <h3 className='text-xs font-semibold mt-2'>TCS karado</h3>
                 </div>
-
+                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                    <img src="/img/KeyFeatures/pickup-icon-5.svg" className='h-14 w-14' />
+                    <h3 className='text-xs text-center font-semibold mt-2'>Schedule A Pickup</h3>
+                </div>
+                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                    <img src="/img/KeyFeatures/calculater.svg" className='h-14 w-14' />
+                    <h3 className='text-xs text-center font-semibold mt-2'>Rate Calculator</h3>
+                </div>
+                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                    <img src="/img/KeyFeatures/tcsnearyou.svg" className='h-14 w-14' />
+                    <h3 className='text-xs text-center font-semibold mt-2'>TCS Near You</h3>
+                </div>
             </div>
         </>
     )
