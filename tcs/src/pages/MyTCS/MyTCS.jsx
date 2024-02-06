@@ -1,8 +1,18 @@
 import React from 'react'
+import Nav from "../../components/Nav"
+import Footer from '../../components/Footer'
 
 const MyTCS = () => {
   return (
-    <div>MyTCS</div>
+    <>
+      <Nav />
+      <div>
+        <div className='bg-[#efefef] text-center py-16'>
+          <h1 className='text-4xl font-bold'>Customer Portals</h1>
+        </div>
+      </div>
+      <Footer />
+    </>
   )
 }
 

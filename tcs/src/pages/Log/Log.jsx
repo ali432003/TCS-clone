@@ -1,8 +1,16 @@
 import React from 'react'
+import Nav from "../../components/Nav"
+import Footer from '../../components/Footer'
 
 const Log = () => {
   return (
-    <div>Log</div>
+    <>
+      <Nav />
+      <div>
+        <img src="/img/logistics.jpg" alt="" />
+      </div>
+      <Footer />
+    </>
   )
 }
 
