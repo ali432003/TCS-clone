@@ -181,16 +181,16 @@ const Nav = () => {
 
             <div className={`${isSecondNavbarVisible ? "ease-in-out duration-700" : "hidden "} bg-red-600 sticky top-0 z-50`}>
                 <div className="flex justify-between mx-32">
-                    <img src="/img/TCS.svg" className='mb-4' alt="Example SVG" width={100} height={100} />
-                    <div className='mt-5 flex'>
-                        <BootstrapTooltip title={aboutUs}><li className='list-none me-2 flex text-white cursor-pointer font'>About Us <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={Domestic}> <li className='list-none me-2 flex text-white cursor-pointer'>Domestic <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={International}><li className='list-none me-2 flex text-white cursor-pointer'>International <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={Express}><li className='list-none me-2 flex text-white cursor-pointer'>Express <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={Logistics}><li className='list-none me-2 flex text-white cursor-pointer'>Logistics <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <li className='list-none me-2 flex text-white cursor-pointer'>E-com Solutions</li>
-                        <li className='list-none me-2 flex text-white cursor-pointer'>Contact Us</li>
-                        <li className='list-none me-2 flex text-white cursor-pointer mb-6 hover:bg-red-700 px-5  rounded bg-red-800'>My TCS</li>
+                <Link to={'/'}><img src="/img/TCS.svg" className='mt-4' alt="Example SVG" width={100} height={100} /></Link>
+                    <div className='mt-6 flex'>
+                    <Link to={'/about'}><BootstrapTooltip title={aboutUs}><li className='list-none me-2 flex text-white cursor-pointer font'>About Us <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                    <Link to={'/dom'}><BootstrapTooltip title={Domestic}> <li className='list-none me-2 flex text-white cursor-pointer'>Domestic <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                    <Link to={'/int'}><BootstrapTooltip title={International}><li className='list-none me-2 flex text-white cursor-pointer'>International <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                    <Link to={'/exp'}><BootstrapTooltip title={Express}><li className='list-none me-2 flex text-white cursor-pointer'>Express <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                    <Link to={'/log'}><BootstrapTooltip title={Logistics}><li className='list-none me-2 flex text-white cursor-pointer'>Logistics <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                    <Link to={'/ecom'}><li className='list-none me-2 flex text-white cursor-pointer'>E-com Solutions</li></Link>
+                    <Link to={'/cont'}><li className='list-none me-2 flex text-white cursor-pointer'>Contact Us</li></Link>
+                    <Link to={'/myTCS'}><li className='list-none me-2 flex text-white cursor-pointer mb-6 hover:bg-red-700 px-5  rounded bg-red-800'>My TCS</li></Link>
                     </div>
                 </div>
             </div>
