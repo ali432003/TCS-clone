@@ -2,6 +2,7 @@ import React from 'react'
 import { useState, useEffect } from 'react';
 import { styled } from '@mui/material/styles';
 import Tooltip, { tooltipClasses } from '@mui/material/Tooltip';
+import { Link } from 'react-router-dom';
 
 
 const BootstrapTooltip = styled(({ className, ...props }) => (
@@ -141,12 +142,12 @@ const Nav = () => {
                 } else {
                     setIsSecondNavbarVisible(false);
                 }
-            }, 100); 
+            }, 100);
         };
 
         window.addEventListener('scroll', handleScroll);
 
-        
+
         return () => {
             window.removeEventListener('scroll', handleScroll);
             clearTimeout(timeoutId);
@@ -163,16 +164,16 @@ const Nav = () => {
                     <BootstrapTooltip title={pak}><li className='list-none mx-2 translate-y-4 flex text-white cursor-pointer font'>Pakistan<img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
                 </div>
                 <div className="flex justify-between mx-32">
-                    <img src="/img/TCS.svg" className='mb-5 ' alt="Example SVG" width={180} height={180} />
+                    <Link to={'/'}><img src="/img/TCS.svg" className='mb-5 ' alt="Example SVG" width={180} height={180} /></Link>
                     <div className='mt-10 flex'>
-                        <BootstrapTooltip title={aboutUs}><li className='list-none me-2 flex text-white cursor-pointer font'>About Us <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={Domestic}> <li className='list-none me-2 flex text-white cursor-pointer'>Domestic <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={International}><li className='list-none me-2 flex text-white cursor-pointer'>International <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={Express}><li className='list-none me-2 flex text-white cursor-pointer'>Express <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <BootstrapTooltip title={Logistics}><li className='list-none me-2 flex text-white cursor-pointer'>Logistics <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip>
-                        <li className='list-none me-2 flex text-white cursor-pointer'>E-com Solutions</li>
-                        <li className='list-none me-2 flex text-white cursor-pointer'>Contact Us</li>
-                        <li className='list-none me-2 flex text-white cursor-pointer mb-6 hover:bg-red-700 px-5  rounded bg-red-800'>My TCS</li>
+                        <Link to={'/about'}><BootstrapTooltip title={aboutUs}><li className='list-none me-2 flex text-white cursor-pointer font'>About Us <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                        <Link to={'/dom'}><BootstrapTooltip title={Domestic}> <li className='list-none me-2 flex text-white cursor-pointer'>Domestic <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                        <Link to={'/int'}><BootstrapTooltip title={International}><li className='list-none me-2 flex text-white cursor-pointer'>International <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                        <Link to={'/exp'}><BootstrapTooltip title={Express}><li className='list-none me-2 flex text-white cursor-pointer'>Express <img src="/img/down.png" className='pb-7  ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                        <Link to={'/log'}><BootstrapTooltip title={Logistics}><li className='list-none me-2 flex text-white cursor-pointer'>Logistics <img src="/img/down.png" className='pb-7 ms-0 filter brightness-0 invert' width={25} height={5} /></li></BootstrapTooltip></Link>
+                        <Link to={'/ecom'}><li className='list-none me-2 flex text-white cursor-pointer'>E-com Solutions</li></Link>
+                        <Link to={'/cont'}><li className='list-none me-2 flex text-white cursor-pointer'>Contact Us</li></Link>
+                        <Link to={'/myTCS'}><li className='list-none me-2 flex text-white cursor-pointer mb-6 hover:bg-red-700 px-5  rounded bg-red-800'>My TCS</li></Link>
                     </div>
                 </div>
                 <marquee behavior="" direction="" className="font-extrabold bg-white sticky top-0">Some deliveries may be delayed due to foggy weather <span>موسم دھند آلود ہونے کی وجہ سے کچھ ترسیلات میں تاخیر ہو سکتی تی ہے۔</span></marquee>

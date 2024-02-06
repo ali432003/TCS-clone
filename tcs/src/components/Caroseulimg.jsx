@@ -21,14 +21,13 @@ const Caroseulimg = (props) => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      swipeRight(); // You can change this to swipeLeft() if you want the images to slide left automatically
-    }, 3000); // Adjust the interval time (in milliseconds) as per your requirement
+      swipeRight(); 
+    }, 3000);  
 
     return () => {
       clearInterval(intervalId);
     };
-  }, []); // Empty dependency array ensures that this effect runs only once after the initial render
-
+  }, []); 
   return (
     <div>
       <img src={props.imageUrls[imageIndex]} alt="" />

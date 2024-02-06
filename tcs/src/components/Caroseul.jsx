@@ -4,6 +4,7 @@ import img2 from "/img/slider-banner2.jpg"
 import img3 from "/img/slider-banner3.jpg"
 import img4 from "/img/slider-banner5.jpg"
 import Caroseulimg from './Caroseulimg'
+import { Link } from 'react-router-dom'
 
 
 const Caroseul = () => {
@@ -20,22 +21,24 @@ const Caroseul = () => {
                 </div>
             </div>
             <div className='flex justify-center lg:-translate-y-16'>
-                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
-                    <img src="/img/KeyFeatures/tcskardo.svg" className='h-14 w-14' />
-                    <h3 className='text-xs font-semibold mt-2'>TCS karado</h3>
-                </div>
-                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                <Link to={'/kardo'}>
+                    <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                        <img src="/img/KeyFeatures/tcskardo.svg" className='h-20 w-14' />
+                        <h3 className='text-xs font-semibold'>TCS karado</h3>
+                    </div>
+                </Link>
+                <Link to={'/pickup'}><div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
                     <img src="/img/KeyFeatures/pickup-icon-5.svg" className='h-14 w-14' />
                     <h3 className='text-xs text-center font-semibold mt-2'>Schedule A Pickup</h3>
-                </div>
-                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                </div></Link>
+                <Link to={'/rate'}><div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
                     <img src="/img/KeyFeatures/calculater.svg" className='h-14 w-14' />
                     <h3 className='text-xs text-center font-semibold mt-2'>Rate Calculator</h3>
-                </div>
-                <div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
+                </div></Link>
+                <Link to={'nearYou'}><div className='p-12 bg-white py-5 w-40 border rounded-lg cursor-pointer shadow-lg hover:shadow-2xl ease-in-out'>
                     <img src="/img/KeyFeatures/tcsnearyou.svg" className='h-14 w-14' />
                     <h3 className='text-xs text-center font-semibold mt-2'>TCS Near You</h3>
-                </div>
+                </div></Link>
             </div>
         </>
     )
