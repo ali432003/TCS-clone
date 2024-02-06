@@ -1,0 +1,17 @@
+.img-slider-btn{
+    all: unset;
+    /* display: block; */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    padding: 1rem;
+    cursor: pointer;
+    width: 30px;
+    filter: brightness(100%);
+}
+.img-slider-btn > *{
+        stroke: white;
+        fill: black;
+        width: 2rem;
+        height: 2rem;
+}

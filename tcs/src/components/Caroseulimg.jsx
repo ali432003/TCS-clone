@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import "../styling/img-slider.css"
+import "./styling/img-slider.css"
 
 
 const Caroseulimg = (props) => {

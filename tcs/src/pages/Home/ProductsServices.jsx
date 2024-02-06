@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import ScrollToTop from '../../components/ScrollToTop'
 
 
 const ProductsServices = () => {
@@ -22,9 +23,11 @@ const ProductsServices = () => {
         setLogistiClick(true)
     }
 
+    
+
 
     return (
-        <>
+        <div>
             <div className='flex justify-center flex-col'>
                 <h1 className='text-4xl text-center font-bold'>Products and Services</h1>
                 <div className='bg-red-600 mt-4 h-2 mx-auto w-20 rounded-lg'></div>
@@ -122,7 +125,9 @@ const ProductsServices = () => {
                     <p className='text-center mt-2'>Regional Trade</p>
                 </div>
             </div> : expressClick}
-        </>
+
+            {<ScrollToTop/>}
+        </div>
     )
 }
 
