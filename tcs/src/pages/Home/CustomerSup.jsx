@@ -2,7 +2,7 @@ import React from 'react'
 
 const CustomerSup = () => {
     return (
-        <div className='flex justify-evenly mt-16'>
+        <div className='flex justify-evenly mt-16 max-w-[50rem] mx-auto gap-x-[15rem]'>
             <div className='flex '>
                 <div className="flex flex-col gap-6 mt-24">
                     <div><img src="/img/support3.png" className='w-44' alt="" /></div>

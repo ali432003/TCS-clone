@@ -7,7 +7,7 @@ const News = () => {
                 <h1 className='text-4xl text-center font-bold'>In The News</h1>
                 <div className='bg-red-600 mt-4 h-2 mx-auto w-20 rounded-lg'></div>
             </div>
-            <div className='flex justify-evenly mx-32 gap-5'>
+            <div className='flex justify-evenly  gap-x-[1rem] mx-auto max-w-[50rem]'>
                 <div>
                     <img src="/img/tirevent.jpg" alt="" />
                     <h1 className='text-xl font-bold text-slate-700 my-1'>TIR Event</h1>
@@ -24,7 +24,7 @@ const News = () => {
                     <h6 className='text-sm text-slate-600'>23 May 2022</h6>
                 </div>
             </div>
-            <div className='bg-[#f6f9fc] mt-44'>
+            <div className='bg-[#f6f9fc] mt-44 '>
                 <div className='pt-10 mb-20'>
                     <h1 className='text-4xl text-center font-bold'>Working With TCS</h1>
                     <div className='bg-red-600 mt-4 h-2 mx-auto w-20 rounded-lg'></div>

@@ -7,7 +7,7 @@ const Ecom = () => {
     <>
       <Nav />
       <div>
-        <img src="/img/main-banner1.jpg" alt="" />
+        <img src="/img/main-banner1.jpg" className='w-[100%]' alt="" />
       </div>
       <Footer />
     </>

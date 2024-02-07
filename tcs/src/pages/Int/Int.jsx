@@ -7,7 +7,7 @@ const Int = () => {
     <>
       <Nav />
       <div>
-        <img src="/img/main-banner.jpg" alt="" />
+        <img src="/img/main-banner.jpg" className='w-[100%]' alt="" />
       </div>
       <Footer />
     </>

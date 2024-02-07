@@ -30,8 +30,8 @@ const CSR = () => {
 
     return (
         <>
-            <div className='flex flex-evenly mt-24 mx-20'>
-                <div className='ms-24 w-96'>
+            <div className='flex flex-evenly mt-24 max-w-[50rem] mx-auto gap-x-[2rem]'>
+                <div className=''>
                     <h1 className='text-4xl text-start font-bold'>TCS's CSR Activities <br />In Pakistan</h1>
                     <div className='bg-red-600 mt-4 h-2  w-20 rounded-lg'></div>
                     <div className='my-20'>

@@ -7,7 +7,7 @@ const Exp = () => {
     <>
       <Nav />
       <div>
-        <img src="/img/banner-2.jpg" alt="" />
+        <img src="/img/banner-2.jpg" className='w-[100%]' alt="" />
       </div>
       <Footer />
     </>

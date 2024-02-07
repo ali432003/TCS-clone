@@ -30,7 +30,7 @@ const Caroseulimg = (props) => {
   }, []); 
   return (
     <div>
-      <img src={props.imageUrls[imageIndex]} alt="" />
+      <img src={props.imageUrls[imageIndex]} className='w-[100%]' alt="" />
       <button onClick={swipeRight} className="img-slider-btn" style={{ right: 0 }}>
         <img src="/img/right-arrow.png" className='filter brightness-0 invert' alt="" />
       </button>

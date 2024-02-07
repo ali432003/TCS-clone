@@ -7,7 +7,7 @@ const Log = () => {
     <>
       <Nav />
       <div>
-        <img src="/img/logistics.jpg" alt="" />
+        <img src="/img/logistics.jpg" className='w-[100%]' alt="" />
       </div>
       <Footer />
     </>
