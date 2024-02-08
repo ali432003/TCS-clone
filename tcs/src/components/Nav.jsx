@@ -157,7 +157,7 @@ const Nav = () => {
 
     return (
         <>
-            <div className={`${isSecondNavbarVisible ? "hidden " : "ease-in-out duration-7  00"} bg-red-600 sticky top-0 z-50`}>
+            <div className={`${isSecondNavbarVisible ? "hidden " : ""} ease-in duration-300 bg-red-600 sticky top-0 z-50`}>
                 <div className={`flex justify-end mx-32 translate-y-6`}>
                     <img src="/img/sentiments.svg" className='mx-2' width={100} height={100} />
                     <img src="/img/studio.svg" className='mx-2' width={100} height={100} />
@@ -179,7 +179,7 @@ const Nav = () => {
                 <marquee behavior="" direction="" className="font-extrabold bg-white sticky top-0">Some deliveries may be delayed due to foggy weather <span>موسم دھند آلود ہونے کی وجہ سے کچھ ترسیلات میں تاخیر ہو سکتی تی ہے۔</span></marquee>
             </div>
 
-            <div className={`${isSecondNavbarVisible ? "ease-in-out duration-700" : "hidden "} bg-red-600 sticky top-0 z-50`}>
+            <div className={`${isSecondNavbarVisible ? "" : "hidden "} ease-in duration-300 bg-red-600 sticky top-0 z-50`}>
                 <div className="flex justify-between mx-32">
                 <Link to={'/'}><img src="/img/TCS.svg" className='mt-4' alt="Example SVG" width={100} height={100} /></Link>
                     <div className='mt-6 flex'>
