@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav from "../../components/Nav"
 import Footer from '../../components/Footer'
+import ScrollToTop from '../../components/ScrollToTop'
 
 
 const About = () => {
@@ -47,6 +48,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            <ScrollToTop />
             <Footer />
         </>
     )

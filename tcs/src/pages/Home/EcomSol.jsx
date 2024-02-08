@@ -11,21 +11,21 @@ const EcomSol = () => {
                 <div className='text-center my-4'>
                     <p className='text-md'>Increase the productivity of your business applications by integrating them with TCS products <br />and services through APIs.</p>
                 </div>
-                <div className='flex justify-evenly mt-10'>
+                <div className='flex justify-between mt-10 gap-x-[3rem]'>
                     <div className='flex flex-col justify-center'>
                         <img src="/img/tcsdeveloperportal.svg" className='w-56 mx-auto' alt="" />
                         <div className=' text-center'>
                             <h1 className='text-4xl font-bold'>TCS Developer Portal</h1>
-                            <p className='mt-4 text-sm'>Our Developer Portal allows the developers to augment their applications by <br />integrating them with TCS APIs.</p>
+                            <p className='mt-4 text-sm'>Our Developer Portal allows the developers to augment their applications by integrating them with TCS APIs.</p>
                             <button className='mt-4 bg-red-600 p-2 px-9 text-white rounded-sm hover:bg-red-700'>More Details</button>
                         </div>
                     </div>
 
                     <div className='flex flex-col justify-center'>
-                        <img src="/img/tcsplugins.svg" className='w-56 mx-auto' alt="" />
+                        <img src="/img/tcsplugins.svg" className='w-60 mx-auto' alt="" />
                         <div className=' text-center'>
-                            <h1 className='text-4xl font-bold'>TCS Developer Portal</h1>
-                            <p className='mt-4 text-sm'>Our Developer Portal allows the developers to augment their applications by <br />integrating them with TCS APIs.</p>
+                            <h1 className='text-4xl font-bold'>TCS Plug-ins</h1>
+                            <p className='mt-3 text-sm'>Our Developer Portal allows the developers to augment their applications by integrating them with TCS APIs.</p>
                             <button className='mt-4 bg-red-600 p-2 px-9 text-white rounded-sm hover:bg-red-700'>More Details</button>
                         </div>
                     </div>

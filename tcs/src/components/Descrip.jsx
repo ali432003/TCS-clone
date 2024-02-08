@@ -5,7 +5,7 @@ const Descrip = (props) => {
         <>
             <div className='border border-t-1 pt-16 border-x-0 border-b-0 flex gap-x-4 mt-16'>
                 <div className='text-start'>
-                    <h1 className='text-3xl font-bold mb-4'>{props.head}</h1>
+                    <h1 className='text-3xl font-bold mb-4 flex gap-x-[0.2rem]'>{props.head} <span className={`text-md text-[#373737]`}>{props.brack}</span></h1>
                     <p >
                         {props.content}
                     </p>

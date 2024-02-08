@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from "../../components/Nav"
 import Footer from '../../components/Footer'
 import Descrip from '../../components/Descrip'
+import ScrollToTop from '../../components/ScrollToTop'
 
 
 const Dom = () => {
@@ -13,6 +14,7 @@ const Dom = () => {
       </div>
       <div>
         <div className='text-md text-center mx-auto my-8 max-w-[50rem]'>
+          
           <p className='text-start'>
             Our domestic operations are what makes us the leader in Pakistan’s courier and logistics industry. Facilitating walk-in customers at our Express Centres across Pakistan, we cater for the largest customer base in the country, with an endless range of cost-effective solutions, such as domestic and international shipments of documents and parcels, document attestation, visa dropbox, branchless banking, fulfilment services and everything in-between. Our round the clock domestic operations with retail teams, the largest delivery fleet and our service standards give our individual and business customers peace of mind while setting the bar for all courier and logistics companies in Pakistan.
           </p>
@@ -71,6 +73,7 @@ const Dom = () => {
           <Descrip head="Cold Chain Management" content="With fleets of temperature-controlled primary and secondary logistics vehicles, strategically located warehouses and distribution centres across the country and an advanced Fleet Integrated Management System (FIMS), TCS capabilities cover the full scope of temperature-sensitive logistics. We provide LTL, FTL, Door-to-Door, and Live Track and Trace services for industries including technology, pharmaceuticals, ambient, and perishables." img="DomesticScrollingBanner/scrolling-image19.jpg" visiblity="hidden" />
         </div>
       </div>
+      <ScrollToTop/>
       <Footer />
     </>
   )

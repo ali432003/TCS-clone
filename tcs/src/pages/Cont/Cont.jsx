@@ -11,6 +11,7 @@ import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
 import FormHelperText from '@mui/material/FormHelperText';
 import Ques from '../../components/Ques';
+import ScrollToTop from '../../components/ScrollToTop';
 
 
 
@@ -161,8 +162,14 @@ const Cont = () => {
             <h1 className='text-3xl font-bold text-center py-[5rem]'>Frequently Asked Questions</h1>
           </div>
         </div>
-        <Ques/>
+        <Ques ques="What is TCS ‘On Call Pickup’ for corporate customers?" ans="On Call Pickup is a TCS pickup service for corporate customers, available from 11am to 5pm, Monday through Saturday (for regular TCS shipments). The service makes it convenient to have your shipment picked up from your chosen location. You can schedule an On Call Pickup by calling our helpline (111 123 456)."/>
+        <Ques ques="What happens when I am not present at my address to receive the delivery?" ans="On Call Pickup is a TCS pickup service for corporate customers, available from 11am to 5pm, Monday through Saturday (for regular TCS shipments). The service makes it convenient to have your shipment picked up from your chosen location. You can schedule an On Call Pickup by calling our helpline (111 123 456)."/>
+        <Ques ques=" Does TCS offer holiday delivery service?" ans="On Call Pickup is a TCS pickup service for corporate customers, available from 11am to 5pm, Monday through Saturday (for regular TCS shipments). The service makes it convenient to have your shipment picked up from your chosen location. You can schedule an On Call Pickup by calling our helpline (111 123 456)."/>
+        <Ques ques=" In case of a lost shipment, will TCS compensate the market value of the lost goods?" ans="On Call Pickup is a TCS pickup service for corporate customers, available from 11am to 5pm, Monday through Saturday (for regular TCS shipments). The service makes it convenient to have your shipment picked up from your chosen location. You can schedule an On Call Pickup by calling our helpline (111 123 456)."/>
+        <Ques ques=" How much does TCS charge for the insurance of high value goods?" ans="On Call Pickup is a TCS pickup service for corporate customers, available from 11am to 5pm, Monday through Saturday (for regular TCS shipments). The service makes it convenient to have your shipment picked up from your chosen location. You can schedule an On Call Pickup by calling our helpline (111 123 456)."/>
+        <Ques ques=" How do I know if a shipment is dutiable?" ans="On Call Pickup is a TCS pickup service for corporate customers, available from 11am to 5pm, Monday through Saturday (for regular TCS shipments). The service makes it convenient to have your shipment picked up from your chosen location. You can schedule an On Call Pickup by calling our helpline (111 123 456)."/>
       </div>
+      <ScrollToTop />
       <Footer />
     </>
   )
